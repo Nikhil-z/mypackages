@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.test.ui"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:launchMode="singleTask"  android:name=".CaActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:launchMode="singleTask"  android:name=".CaVersionInfoActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:launchMode="singleTask"  android:name=".CaOperatorList" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:launchMode="singleTask"  android:name=".CaCardFeedActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:launchMode="singleTask"  android:name=".CaCardInfoActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:launchMode="singleTask"  android:name=".CaDetitleInfoActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:launchMode="singleTask"  android:name=".CaEntitleInfoActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:launchMode="singleTask"  android:name=".CaInfoModifyPin" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:launchMode="singleTask"  android:name=".CaInformationActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:launchMode="singleTask"  android:name=".CaManagementActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:launchMode="singleTask"  android:name=".CaPurseInfoActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:launchMode="singleTask"  android:name=".CaWatchLevelActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:launchMode="singleTask"  android:name=".CaWorkTimeActivity" >
+        </activity>
+        <activity android:theme="@style/Dialog" android:launchMode="singleTask" android:name=".CaEmailDetailActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:launchMode="singleTask"  android:exported="true" android:name=".CaEmailListActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:launchMode="singleTask"   android:name=".CaIppvPinActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:launchMode="singleTask"   android:name=".CaIppvProgramInfo" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:launchMode="singleTask"  android:name=".CaPairedInfoActivity" >
+        </activity>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:launchMode="singleTask"   android:name=".CaACListInfoActivity" >
+        </activity>
+        <activity  android:name=".SettingActivity" android:launchMode="singleTask" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"> 
+               <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>        
+        <activity  android:name=".SettingActivity_Search" android:launchMode="singleTask" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity  android:name=".Setting_Search_Manual" android:launchMode="singleTask">
+        </activity>
+        <activity  android:name=".Setting_Search_Manual_Searching" android:launchMode="singleTask" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity  android:name=".SettingActivity_List" android:launchMode="singleTask" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:name=".Topmost" android:launchMode="singleTask"	android:exported="true"		android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            </activity>
+        <activity  android:name="android.test.ui.epg.EpgWindow" android:launchMode="singleTask" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        </activity>
+    </application>
+
+</manifest>

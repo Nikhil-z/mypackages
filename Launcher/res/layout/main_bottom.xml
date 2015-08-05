@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_bottom"
+    android:layout_width="1280dp"
+    android:layout_height="50dp"
+    android:layout_margin="5dp" >
+
+    <LinearLayout
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tips0"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/menu_image"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/menu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tips1"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/arrow_up"
+        android:layout_width="@dimen/arrow_width"
+        android:layout_height="@dimen/arrow_height"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/tips"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/arrow_up" />
+
+</RelativeLayout>

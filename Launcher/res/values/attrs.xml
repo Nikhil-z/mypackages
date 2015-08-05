@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<declare-styleable name="kkbutton">
+　　    	<attr name="background" format="reference" />
+	    <attr name="button_tag" format="string" />
+	    <attr name="button_contentDescription" format="string" />
+	</declare-styleable>
+	
+	<declare-styleable name="kkappbutton">
+	    <attr name="background" formate="reference" />
+	    <attr name="tag" format="string" />
+	    <attr name="contentDescription" format="string" />
+	    <attr name="label" format="string" />
+	    <attr name="icon" format="reference" />
+	    <attr name="pkg" format="string" />
+	    <attr name="cls" format="string" />
+	</declare-styleable>
+
+</resources>

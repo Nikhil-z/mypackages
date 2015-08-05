@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false" android:state_focused="false" android:drawable="@drawable/transparent">
+    </item>
+    
+    <item android:state_enabled="false" android:state_focused="true" android:drawable="@drawable/transparent">
+    </item>
+
+    <item android:state_window_focused="false" android:drawable="@drawable/transparent">
+    </item>
+
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/list_focus">
+    </item>
+
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/list_focus">
+   </item>
+
+    <item android:state_selected="true" android:drawable="@drawable/list_focus">
+    </item>
+
+    <item android:state_focused="true" android:drawable="@drawable/list_focus">
+    </item>
+
+    <item android:drawable="@drawable/transparent">
+    </item>
+
+</selector> -->
+
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false" android:state_focused="false">
+        <shape>
+            <stroke android:dashWidth="0dp" android:width="1dp" android:color="#ffffffff" />
+        </shape>
+    </item>
+    
+    <item android:state_enabled="false" android:state_focused="true">
+        <shape>
+            <stroke android:dashWidth="0dp" android:width="1dp" android:color="#ffffffff" />
+        </shape>
+    </item>
+
+    <item android:state_window_focused="false">
+		<shape>
+            <stroke android:dashWidth="0dp" android:width="1dp" android:color="#ffffffff" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/bt_focus">
+        <shape>
+            <stroke android:dashWidth="0dp" android:width="2dp" android:color="#ff0081DC" />
+        </shape>
+    </item>
+
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/bt_focus">
+        <shape>
+            <stroke android:dashWidth="0dp" android:width="2dp" android:color="#ff0081DC" />
+        </shape>
+   </item>
+
+    <item android:state_selected="true" android:drawable="@drawable/bt_focus">
+        <shape>
+            <stroke android:dashWidth="0dp" android:width="2dp" android:color="#ff0081DC" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true" android:drawable="@drawable/bt_focus">
+        <shape>
+            <stroke android:dashWidth="0dp" android:width="2dp" android:color="#ff0081DC" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <stroke android:dashWidth="0dp" android:width="1dp" android:color="#ffffffff" />
+        </shape>
+    </item>
+
+</selector>

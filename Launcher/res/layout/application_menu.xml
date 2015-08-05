@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54.6dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" 
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25dp"
+        android:text="@string/app_common_operation"/>
+    
+    <TextView
+        android:id="@+id/title_summary"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.3dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white_50"
+        android:textSize="19dp"
+        android:text="@string/app_operation_summary"/>
+    
+	<RelativeLayout 
+	    android:id="@+id/common"
+	    android:layout_width="580dp"
+	    android:layout_height="85dp"
+	    android:layout_marginTop="78dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@+id/title_summary"
+	    android:clickable="true"
+	    android:focusable="true"
+	    android:background="@drawable/list_selector" >
+	    
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:paddingLeft="60dp"
+	    	android:paddingTop="15dp"
+	    	android:paddingBottom="15dp"
+	        android:textSize="24dp"
+	        android:textColor="@android:color/white"
+	        android:text="@string/app_operation_common_cancel" />
+	    
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentBottom="true"
+	        android:paddingLeft="60dp"
+	        android:paddingBottom="15dp"
+	        android:textSize="16dp"
+	        android:textColor="@color/white_50"
+	        android:text="@string/app_operation_common_cancel_summary" />
+	    
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="5dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:background="@drawable/divider_horizontalline" />
+	</RelativeLayout>    
+	
+	<RelativeLayout 
+	    android:id="@+id/replace"
+	    android:layout_width="580dp"
+	    android:layout_height="85dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@+id/common"
+	    android:clickable="true"
+	    android:focusable="true"
+	    android:background="@drawable/list_selector" >
+	    
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:paddingLeft="60dp"
+	    	android:paddingTop="15dp"
+	    	android:paddingBottom="15dp"
+	        android:textSize="24dp"
+	        android:textColor="@android:color/white"
+	        android:text="@string/app_common_operation_replace" />
+	    
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentBottom="true"
+	        android:paddingLeft="60dp"
+	        android:paddingBottom="15dp"
+	        android:textSize="16dp"
+	        android:textColor="@color/white_50"
+	        android:text="@string/app_common_operation_replace_summary" />
+	    
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="5dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:background="@drawable/divider_horizontalline" />
+	</RelativeLayout>   
+	 
+	<RelativeLayout 
+	    android:id="@+id/boot_start"
+	    android:layout_width="580dp"
+	    android:layout_height="85dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@+id/replace"
+	    android:clickable="true"
+	    android:focusable="true"
+	    android:background="@drawable/list_selector" >
+	    
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:paddingLeft="60dp"
+	    	android:paddingTop="15dp"
+	    	android:paddingBottom="15dp"
+	        android:textSize="24dp"
+	        android:textColor="@android:color/white"
+	        android:text="@string/app_operation_boot_start" />
+	    
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentBottom="true"
+	        android:paddingLeft="60dp"
+	        android:paddingBottom="15dp"
+	        android:textSize="16dp"
+	        android:textColor="@color/white_50"
+	        android:text="@string/app_operation_boot_start_summary" />
+	    
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="5dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:background="@drawable/divider_horizontalline" />
+	</RelativeLayout>    
+	
+</RelativeLayout>    

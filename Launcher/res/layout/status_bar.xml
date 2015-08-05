@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_statusbar"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/statusbar_height"
+    android:gravity="right"
+    android:layout_marginRight="@dimen/statusbar_to_right"
+    android:layout_marginTop="@dimen/statusbar_to_top"
+    android:orientation="horizontal"
+    android:background="@color/transparent_100" >  
+    <com.konka.custom.view.KKDigitalClock 
+        android:id="@+id/statusbar_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/statusbar_item_spacing"
+        android:layout_marginRight="@dimen/statusbar_item_spacing"
+        android:gravity="bottom"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/statusbar_clock_text_size" />
+    
+</LinearLayout>

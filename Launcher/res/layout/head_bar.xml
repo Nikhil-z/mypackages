@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_headbar"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/headbar_height"
+    android:layout_marginLeft="@dimen/headbar_to_left"
+    android:layout_marginTop="@dimen/headbar_to_statusbar"
+    android:background="@color/transparent_100" >
+
+    <LinearLayout
+        android:id="@+id/headbar_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/headbar_title_height" >
+
+        <LinearLayout
+            android:id="@+id/id_tab_head_recommend"
+            android:layout_width="@dimen/headbar_title_width"
+            android:layout_height="fill_parent"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/tab_btn_recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent_100"
+                android:text="@string/headbar_live"
+                android:textColor="@color/white"
+                android:textSize="@dimen/headbar_text_size" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/headbar_divide_width"
+            android:layout_height="@dimen/headbar_divide_height"
+            android:layout_gravity="center"
+            android:background="@drawable/headbar_divide" />
+
+        <LinearLayout
+            android:id="@+id/id_tab_head_movie"
+            android:layout_width="@dimen/headbar_title_width"
+            android:layout_height="fill_parent"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/tab_btn_movie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent_100"
+                android:text="@string/headbar_HD"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/headbar_text_size" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/headbar_divide_width"
+            android:layout_height="@dimen/headbar_divide_height"
+            android:layout_gravity="center"
+            android:background="@drawable/headbar_divide" />
+
+        <LinearLayout
+            android:id="@+id/id_tab_head_game"
+            android:layout_width="@dimen/headbar_title_width"
+            android:layout_height="fill_parent"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/tab_btn_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent_100"
+                android:text="@string/headbar_lookback"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/headbar_text_size" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/headbar_divide_width"
+            android:layout_height="@dimen/headbar_divide_height"
+            android:layout_gravity="center"
+            android:background="@drawable/headbar_divide" />
+
+        <LinearLayout
+            android:id="@+id/id_tab_head_child"
+            android:layout_width="@dimen/headbar_title_width"
+            android:layout_height="fill_parent"
+            android:descendantFocusability="beforeDescendants"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/tab_btn_child"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent_100"
+                android:text="@string/headbar_application"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/headbar_text_size" />
+        </LinearLayout>
+
+     
+    </LinearLayout>
+
+    <!-- headbar标题下的动态下划线 -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/headbar_underline_height"
+        android:layout_below="@id/headbar_title"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/headbar_underline"
+            android:layout_width="@dimen/headbar_underline_width"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/headbar_underline_to_headbar_left"
+            android:background="@color/transparent_100"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+</RelativeLayout>

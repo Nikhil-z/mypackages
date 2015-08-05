@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="enable_text_color">#FFFFFF</color>
+    <color name = "transparent" >#9000</color>
+  <color name = "peonyred" >#FF00FF</color>
+  <color name = "red" >#FF0000</color>
+<color name="disable_text_color">#AAAAAA</color>
+    <color name="black">#000000</color>
+     <color name="dialog_transparent">#00000000</color>
+     
+     
+     <color name="background">#808080</color>
+    <color name="green">#00FF00</color>
+    <color name="light_green">#66FF00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="logo_blue">#000985</color>
+    <color name="orange">#FF7E23</color>
+    <color name="dark_orange">#B24701</color>
+    <color name="ics_blue">#0099cc</color>
+</resources>

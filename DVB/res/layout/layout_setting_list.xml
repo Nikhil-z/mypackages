@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/setting_list_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/pro_manager" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/setting_list_textview2"
+            android:textColor="@color/enable_text_color"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/setting_list_uderline" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/setting_list_textview1"
+            android:textColor="@color/enable_text_color"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/under_top" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/setting_list_listview"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:divider="@null"
+        android:listSelector="@drawable/item_slector" >
+    </ListView>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bottom" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/setting_list_textview3"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+</LinearLayout>

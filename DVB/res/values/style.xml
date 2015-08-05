@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <style name="title_style" >
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">67dp</item>
+    	<item name="android:gravity">left</item>
+    	<item name="android:textSize">17dp</item>
+    	<item name="android:textColor">#ffffff</item>
+    	<item name="android:layout_marginLeft">20dp</item>
+    </style>
+    <!-- button -->
+    <style name="button_style" >
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">33dp</item>
+    	<item name="android:background">@drawable/button_state</item>
+    	<item name="android:orientation">horizontal</item>
+    	<item name="android:focusable">true</item>
+    	<item name="android:layout_marginBottom">0dp</item>
+    	<item name="android:gravity">center</item>
+    </style>
+    <style name="button_textview_style" >
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:textSize">13dp</item>
+    	<item name="android:textColor">#ffffff</item>
+    </style>
+    <!-- combo button -->
+    <style name="combo_button_style" >
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">33dp</item>
+    	<item name="android:background">@drawable/button_state</item>
+    	<item name="android:orientation">horizontal</item>
+    	<item name="android:focusable">true</item>
+    	<item name="android:layout_marginBottom">0dp</item>
+    </style>
+   
+    <style name="combo_textview_style" >
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:textSize">13dp</item>
+    	<item name="android:layout_weight">1</item>
+    	<item name="android:textColor">#ffffff</item>
+    </style>
+    <!-- spin button -->
+     <style name="spin_button_style" >
+    	<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">33dp</item>
+    	<item name="android:background">@drawable/button_state</item>
+    	<item name="android:orientation">horizontal</item>
+    	<item name="android:focusable">true</item>
+    	<item name="android:layout_marginBottom">0dp</item>
+    </style>
+    <style name="spinner_textview_style" >
+    	<item name="android:layout_width">107dp</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:textSize">13dp</item>
+    	<item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="spinner_indicator_textview_style" >
+    	<item name="android:layout_width">27dp</item>
+    	<item name="android:layout_height">fill_parent</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:textSize">13dp</item>
+    	<item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="spinner_bar_style" >
+    	<item name="android:layout_width">100dp</item>
+    	<item name="android:layout_height">5dp</item>
+    	<item name="android:layout_marginTop">15dp</item>
+    	<item name="android:layout_marginLeft">7dp</item>
+		<item name="android:max">100</item>
+		<item name="android:progress">50</item>
+		<item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+    <!-- dialog -->
+     <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>                <item name="android:backgroundDimEnabled">false</item>        
+     </style>         <style name="cadialog" parent="@android:style/Theme.Dialog">
+        <item name="android:focusable">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/dialog_transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>    <style name="Theme.Translucent"  parent = "android:style/Theme.Translucent" mce_bogus="1">        <item name="android:windowNoTitle">true</item>        <item name="android:colorForeground">#fff</item>    </style>        <style name="mProgress_horizontal1">        <item name="android:indeterminateOnly">false</item>        <item name="android:progressDrawable">@drawable/progressbar_horizontal_1</item>        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>    </style>    <style name="mProgress_horizontal2">        <item name="android:indeterminateOnly">false</item>        <item name="android:progressDrawable">@drawable/progressbar_horizontal_2</item>        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>    </style>    <style name="mProgress_horizontal3">        <item name="android:indeterminateOnly">false</item>        <item name="android:progressDrawable">@drawable/progressbar_horizontal_3</item>        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>    </style>
+</resources>

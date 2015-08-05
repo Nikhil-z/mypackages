@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_uderline"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/setting_list_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/pro_search" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/setting_textview3"
+            android:textColor="@color/enable_text_color"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/setting_list_uderline" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="800dp"
+        android:layout_height="580dp"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/setting_search_manual_searching_textview1"
+                android:textColor="@color/enable_text_color"
+                android:textSize="25sp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/under_top" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/setting_search_manual_searching_textview2"
+                android:textColor="@color/enable_text_color"
+                android:textSize="@dimen/setting_button_textsize" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/setting_search_manual_searching_textview3"
+                android:textColor="@color/enable_text_color"
+                android:textSize="@dimen/setting_button_textsize" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/setting_search_manual_searching_textview4"
+                android:textColor="@color/enable_text_color"
+                android:textSize="@dimen/setting_button_textsize" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/searching_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:divider="@null"
+            android:fadeScrollbars="true" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/searching_bg_inner"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/searching_textview1_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="20dp"
+                    
+                    android:layout_weight="1"
+                    android:background="@drawable/searching_textview_bg"
+                    android:gravity="center"
+                    android:text="@string/setting_search_manual_searching_textview1_1"
+                    android:textColor="@color/enable_text_color"
+                    android:textSize="@dimen/setting_button_textsize" />
+
+                <TextView
+                    android:id="@+id/searching_textview1_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/searching_textview_bg"
+                    android:gravity="center"
+                    android:text="@string/setting_search_manual_searching_textview1_2"
+                    android:textColor="@color/enable_text_color"
+                    android:textSize="@dimen/setting_button_textsize" />
+
+                <TextView
+                    android:id="@+id/searching_textview1_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/searching_textview_bg"
+                    android:gravity="center"
+                    android:text="@string/setting_search_manual_searching_textview1_3"
+                    android:textColor="@color/enable_text_color"
+                    android:textSize="@dimen/setting_button_textsize" />
+
+                <TextView
+                    android:id="@+id/searching_textview1_4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/searching_textview_bg"
+                    android:gravity="center"
+                    android:text="@string/setting_search_manual_searching_textview1_4"
+                    android:textColor="@color/enable_text_color"
+                    android:textSize="@dimen/setting_button_textsize" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" >
+
+                <TextView
+                    android:id="@+id/searching_textview2_1"
+                    android:layout_width="150dp"
+                    android:layout_height="@dimen/searching_textview_h"
+                    android:gravity="center"
+                    android:text="@string/setting_search_manual_searching_textview2_1"
+                    android:textColor="@color/enable_text_color"
+                    android:textSize="@dimen/setting_button_textsize" />
+
+                <TextView
+                    android:id="@+id/searching_textview2_2"
+                    android:layout_width="150dp"
+                    android:layout_height="@dimen/searching_textview_h"
+                    android:layout_below="@id/searching_textview2_1"
+                    android:gravity="center"
+                    android:text="@string/setting_search_manual_searching_textview2_2"
+                    android:textColor="@color/enable_text_color"
+                    android:textSize="@dimen/setting_button_textsize" />
+
+                <TextView
+                    android:id="@+id/searching_textview2_3"
+                    android:layout_width="150dp"
+                    android:layout_height="@dimen/searching_textview_h"
+                    android:layout_below="@id/searching_textview2_2"
+                    android:gravity="center"
+                    android:text="@string/setting_search_manual_searching_textview2_3"
+                    android:textColor="@color/enable_text_color"
+                    android:textSize="@dimen/setting_button_textsize" />
+
+                <ProgressBar
+                    android:id="@+id/searching_progress1"
+                    android:indeterminate="false"
+                    android:indeterminateOnly="false"
+                    style="@style/mProgress_horizontal1"
+                    android:layout_width="500dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toRightOf="@id/searching_textview2_1"
+                    android:max="100" />
+
+                <ProgressBar
+                    android:id="@+id/searching_progress2"
+                    android:layout_width="500dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_below="@id/searching_progress1"
+                    android:layout_toRightOf="@id/searching_textview2_2"
+                    style="@style/mProgress_horizontal2"
+                    android:max="100"
+                    />
+
+                <ProgressBar
+                    android:id="@+id/searching_progress3"
+                    android:progressDrawable="@drawable/progressbar_horizontal_3"
+                    style="@style/mProgress_horizontal3"
+                    android:layout_width="500dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_below="@id/searching_progress2"
+                    android:layout_toRightOf="@id/searching_textview2_3" />
+
+                <TextView
+                    android:id="@+id/searching_textview3_1"
+                    android:layout_width="150dp"
+                    android:layout_height="@dimen/searching_textview_h"
+                    android:layout_toRightOf="@id/searching_progress1"
+                    android:gravity="center"
+                    android:text="@string/setting_search_manual_searching_textview3_1"
+                    android:textColor="@color/enable_text_color"
+                    android:textSize="@dimen/setting_button_textsize" />
+
+                <TextView
+                    android:id="@+id/searching_textview3_2"
+                    android:layout_width="150dp"
+                    android:layout_height="@dimen/searching_textview_h"
+                    android:layout_below="@id/searching_textview3_1"
+                    android:layout_toRightOf="@id/searching_progress2"
+                    android:gravity="center"
+                    android:text="@string/setting_search_manual_searching_textview3_2"
+                    android:textColor="@color/enable_text_color"
+                    android:textSize="@dimen/setting_button_textsize" />
+
+                <TextView
+                    android:id="@+id/searching_textview3_3"
+                    android:layout_width="150dp"
+                    android:layout_height="@dimen/searching_textview_h"
+                    android:layout_below="@id/searching_textview3_2"
+                    android:layout_toRightOf="@id/searching_progress3"
+                    android:gravity="center"
+                    android:text="@string/setting_search_manual_searching_textview3_3"
+                    android:textColor="@color/enable_text_color"
+                    android:textSize="@dimen/setting_button_textsize" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="0dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bottom" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/setting_textview4"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+</LinearLayout>

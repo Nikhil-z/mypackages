@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <Button
+                android:id="@+id/button3_1"
+                android:layout_width="@dimen/extra_button_width"
+                android:layout_height="@dimen/extra_button_height"
+                android:layout_marginLeft="@dimen/button_to_left"
+                android:layout_marginTop="@dimen/button_to_headbar"
+                android:background="@drawable/default_3_1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:tag="301" />
+        </RelativeLayout>
+        
+        <!-- 焦点框 -->
+
+        <ImageView
+            android:id="@+id/game_focus_img"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/focus"
+            android:scaleType="fitXY"
+            android:visibility="visible" />
+    </FrameLayout>

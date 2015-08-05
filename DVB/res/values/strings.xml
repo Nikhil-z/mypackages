@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KonkaDVB</string>
+	
+	<!--For CA String define -->
+	<string name="str_cha_cainformation">条件接收</string>
+	<string name="str_ca_title">条件接收</string>
+	<string name="str_ca_card_version">基本信息</string>
+	<string name="str_ca_card_info">智能卡信息</string>
+	<string name="str_ca_card_management">智能卡设置</string>
+	<string name="str_ca_card_paired">机卡配对信息</string>
+	<string name="str_ca_card_feed">子母卡喂养</string>
+	<string name="str_ca_info_title">智能卡信息</string>
+	<string name="str_ca_info_entitle">普通授权信息</string>
+	<string name="str_ca_info_detitle">反授权信息</string>
+	<string name="str_ca_info_purse_info">钱包信息</string>
+
+
+	<string name="str_ca_mg_title">智能卡设置</string>
+	<string name="str_ca_mg_modify_pin">PIN码修改</string>
+	<string name="str_ca_mg_work_time">工作时段设置</string>
+	<string name="str_ca_mg_watch_level">观看级别设置</string>
+
+	<string name="str_ca_info_pin_title">PIN码修改</string>
+	<string name="str_ca_mg_old_pin">请输入当前PIN码:</string>
+	<string name="str_ca_mg_new_pin">请输入新PIN码:</string>
+	<string name="str_ca_mg_new_pin2">请再次确认新PIN码:</string>
+	<string name="str_ca_mg_submit">确定</string>
+
+	<string name="str_set_work_time_title">工作时段设置</string>
+	<string name="str_ca_start_work_time">请输入开始时间:</string>
+	<string name="str_ca_end_work_time">请输入结束时间:</string>
+	<string name="str_ca_work_time_pin">请输入PIN码:</string>
+	<string name="str_work_time_hour_text">小时</string>
+	<string name="str_work_time_minute_text">分钟</string>
+
+	<string name="str_watch_level_title">观看级别设置</string>
+	<string name="str_watch_level_text">当前观看级别:</string>
+	<string name="str_watch_level_init">0</string>
+
+	<string name="str_ca_operator_title">运营商信息</string>
+	<string name="str_ca_op_id">序号</string>
+	<string name="str_ca_op_operator_id">运营商ID</string>
+
+	<string name="str_ca_version_title">基本信息</string>
+	<string name="str_ca_platform_id">平台编号:</string>
+	<string name="str_ca_version_id">CAS版本号:</string>
+	<string name="str_ca_version_stb_num">机顶盒编号:</string>
+	<string name="str_ca_card_id">智能卡号:</string>
+
+	<string name="str_ca_entitle_title">普通授权信息</string>
+	<string name="str_ca_entitle_id">节目ID</string>
+	<string name="str_ca_entitle_video_id">是否可录像</string>
+	<string name="str_ca_entitle_date">结束时间</string>
+	<string name="str_ca_entitle_video_flag_yes">可以</string>
+	<string name="str_ca_entitle_video_flag_no">不可</string>
+	
+	<string name="str_ca_detitle_title">反授权信息</string>
+	<string name="str_ca_detitle_list">反授权确认码列表</string>
+	<string name="str_ca_detitle_state">确认码状态</string>
+	<string name="str_ca_detitle_state_yes">Yes</string>
+	<string name="str_ca_detitle_state_no">No</string>
+	<string name="str_ca_purse_title">钱包信息</string>
+	<string name="str_ca_purse_id">钱包ID</string>
+	<string name="str_ca_purse_points">已花点数</string>
+	<string name="str_ca_purse_credit">信用度</string>
+
+	<string name="str_ca_card_paired_stb_list">CAS Paired STB Number:</string>
+	
+	<string name="str_ca_back_help">[返回] 返回</string>
+	<string name="str_ca_enter_help">[确认]进入[返回] 返回</string>
+	
+	<!--For CA Error Type define -->
+	<string name="st_ca_rc_ok">成功</string>
+	<string name="st_ca_rc_unknown">未知错误</string>
+	<string name="st_ca_rc_pointer_invalid">指针无效</string>
+	<string name="st_ca_rc_card_invalid">智能卡无 效</string>
+	<string name="st_ca_rc_pin_invalid">PIN码无效</string>
+	<string name="st_ca_rc_dataspace_small">所给的空间不足</string>
+	<string name="st_ca_rc_card_pairother">智能卡已经对应别的机顶盒</string>
+	<string name="st_ca_rc_data_not_find">没有找到所要的数据</string>
+	<string name="st_ca_rc_prog_status_invalid">要购买的节目状态无效</string>
+	<string name="st_ca_rc_card_no_room">智能卡没有空间存放购买的节目</string>
+	<string name="st_ca_rc_worktime_invalid">设定的工作时段无</string>
+	<string name="st_ca_rc_ippv_canntdel">IPPV节目不能被删</string>
+	<string name="st_ca_rc_card_nopair">智能卡没有对应任何的机顶</string>
+	<string name="st_ca_rc_watchrating_invalid">设定的观看级别无</string>
+	<string name="st_ca_rc_card_notsupport">当前智能卡不支持此功</string>
+	<string name="st_ca_rc_data_error">数据错误，智能卡拒绝</string>
+	<string name="st_ca_rc_feedtime_not_arrive">喂养时间未到，子卡不能被喂养</string>
+	<string name="st_ca_rc_card_typeerror">子母卡喂养失败，插入智能卡类型错</string>
+	<string name="st_ca_rc_cas_failed">发卡cas指令执行失败</string>
+	<string name="st_ca_rc_oper_failed">发卡运营商指令执行失</string>
+	<string name="st_ca_rc_pin_len">Pin code less than 6 digits</string>
+	<string name="st_ca_rc_diff_pin">Pin code do not accord</string>
+
+	<!--For CA notify Type define -->
+	<string name="st_ca_message_cancel_type">取消当前的显</string>
+	<string name="st_ca_message_badcard_type">无法识别卡</string>
+	<string name="st_ca_message_expicard_type">智能卡过期，请更换新</string>
+	<string name="st_ca_message_insertcard_type">加扰节目，请插入智能卡</string>
+	<string name="st_ca_message_nooper_type">卡中不存在节目运营商</string>
+	<string name="st_ca_message_blackout_type">条件禁播</string>
+	<string name="st_ca_message_outworktime_type">当前时段被设定为不能观看</string>
+	<string name="st_ca_message_watchlevel_type">节目级别高于设定的观看级别</string>
+	<string name="st_ca_message_pairing_type">智能卡与本机顶盒不对应</string>
+	<string name="st_ca_message_noentitle_type">没有授权</string>
+	<string name="st_ca_message_decryptfail_type">节目解密失败</string>
+	<string name="st_ca_message_nomoney_type">卡内金额不足</string>
+	<string name="st_ca_message_errregion_type">区域不正确</string>
+	<string name="st_ca_message_needfeed_type">子卡需要和母卡对应，请插入母卡</string>
+	<string name="st_ca_message_errcard_type">智能卡校验失败，请联系运营商</string>
+	<string name="st_ca_message_update_type">智能卡升级中，请不要拔卡或者关机</string>
+	<string name="st_ca_message_lowcardver_type">请升级智能卡</string>
+	<string name="st_ca_message_viewlock_type">请勿频繁切换频道</string>
+	<string name="st_ca_message_maxrestart_type">智能卡暂时休眠，5分钟后重新开机</string>
+	<string name="st_ca_message_freeze_type">智能卡已冻结，请联系运营商</string>
+	<string name="st_ca_message_callback_type">智能卡已暂停，请回传收视记录给运营商</string>
+	<string name="st_ca_message_curtain_type">窗帘节目，不可预览阶段</string>
+	<string name="st_ca_message_cardteststart_type">升级测试卡测试中...</string>
+	<string name="st_ca_message_cardtestfaild_type">升级测试卡测试失败，请检查机卡通讯模块</string>
+	<string name="st_ca_message_cardtestsucc_type">升级测试卡测试成功</string>
+	<string name="st_ca_message_nocaliboper_type">卡中不存在移植库定制运营商</string>
+	<string name="st_ca_message_stblocked_type">请重启机顶盒</string>
+	<string name="st_ca_message_stbfreeze_type">机顶盒被冻结</string>
+
+
+	<!-- For CA mode -->
+	<string name="email_theme">主题</string>
+	<string name="email_time">时间</string>
+	<string name="email_level">重要性</string>
+	<string name="email_state">状态</string>
+	<string name="email_aid">按【红】键删除当前邮件  按【绿】键删除所有邮件</string>
+	<string name="email_del">[Red Key] DELETE</string>
+	<string name="email_free_space">剩于空间:</string>
+	<string name="email_num_txt">邮件总数</string>
+	<string name="email_important">重要</string>
+	<string name="email_ordinary">普通</string>
+	<string name="email_read">已读</string>
+	<string name="email_unread">未读</string>
+	<string name="email">邮件</string>
+	<string name="email_detial_title">邮件内容</string>
+	<string name="email_detial_back">返回</string>
+	<string name="email_notify">NOTIFY</string>
+	<string name="really_remove_this_email">really remove this email?</string>
+	<string name="really_remove_all_email">really remove all email?</string>
+	<string name="ippv_freeviewed_segment">IPPV FREEVIEWED SEGMENT</string>
+	<string name="ippv_payviewed_segment">IPPV PAYVIEWED SEGMENT</string>
+	<string name="ippt_payviewed_segment">IPPT PAYVIEWED SEGMENT</string>
+	<string name="ippv_tvsid">运营商ID</string>
+	<string name="ippv_payviewed_productid">节目ID</string>
+	<string name="ippv_payviewed_slotid">钱包ID</string>
+	<string name="ippv_product_state">状态</string>
+	<string name="ippv_payviewed_tape_state">录像</string>
+	<string name="ippv_payviewed_price">价格</string>
+	<string name="ippv_payviewed_expireddate">过期时间</string>
+	<string name="ippt_interval_min">INTERVAL MIN</string>
+	<string name="ippv_payviewed_cantape">可以</string>
+	<string name="ippv_payviewed_cannottape">不可</string>
+	<string name="ippv_pin">PIN</string>
+	<string name="ippv_pin_ok">Success</string>
+	<string name="ippv_pointer_invalid">pointer invalid</string>
+	<string name="ippv_card_invalid">card invalid</string>
+	<string name="ippv_card_no_room">card no room</string>
+	<string name="ippv_prog_status_invalid">program status invalid</string>
+	<string name="ippv_pin_invalid">pin invalid</string>
+	<string name="ippv_data_not_find">data not find</string>
+	<string name="ippv_info_page">CURRENT PAGE/IPPV SUM</string>
+	<string name="ippv_product_state_booking">预定</string>
+	<string name="ippv_product_state_viewed">已看</string>
+	<string name="ippv_can_tape">可以</string>
+	<string name="ippv_can_not_tape">不可</string>
+	<string name="str_ca_mg_child_or_parent_card">状态</string>
+	<string name="str_ca_mg_child_or_parent_card1">状态</string>
+	<string name="str_ca_mg_child_card">子卡</string>
+	<string name="str_ca_mg_parent_card">母卡</string>
+	<string name="str_ca_mg_parent_cardnum">母卡卡号</string>
+	<string name="str_ca_mg_child_cardnum">子卡卡号</string>
+	<string name="str_ca_mg_delaytime">喂养周期</string>
+	<string name="str_ca_mg_delaytime1">喂养周期</string>
+	<string name="str_ca_mg_lastfeedtime">上次喂养时间</string>
+	<string name="str_ca_mg_lastfeedtime1">上次喂养时间</string>
+	<string name="str_ca_mg_ippv_program">IPPV信息</string>
+	<string name="str_ca_mg_card_aclist_info">特征值信息</string>
+	<string name="str_ca_mg_card_info">CARD INFO</string>
+	<string name="really_remove_this_info">really remove this info?</string>
+	<string name="really_remove_all_info">really remove all info?</string>
+	<string name="is_update">Do you want to upgrade?</string>
+	<string name="update_loading">LOADING...</string>
+	<string name="installing">LOADING....</string>
+	<string name="update_complete_is_reboot">reboot the system ?</string>
+	<string name="update_failed">update failed</string>
+	<string name="please_insert_parent_card">please insert parent card</string>
+	<string name="please_insert_child_card">please insert child card</string>
+	<string name="read_feeddata_from_parent_failed">Read data failed</string>
+	<string name="feeddata_successed">SUCCESS</string>
+	<string name="feeddata_failed">FAIL</string>
+	<string name="delete_successed">DELETE SUCCESSED</string>
+	<string name="delete_failed">DELETE FAILED</string>
+	<string name="cdca_paried_list_info_txt">智能卡所绑定的机顶盒编号为:</string>
+	<string name="cdca_rc_ok">智能卡已与当前机顶盒绑定</string>
+	<string name="cdca_rc_card_pairother">智能卡已与其它机顶盒绑定</string>
+	<string name="cdca_rc_card_nopair">智能卡未与任何机顶盒绑定</string>
+	<string name="cdca_rc_invalid">检测不到有效智能卡!</string>
+	<string name="need_please_insert_child_card">please insert child card</string>
+	<string name="ippv_cdca_rc_ok">ok</string>
+	<string name="ippv_cdca_rc_data_not_find">data not find</string>
+	<string name="cdca_rc_pointer_invalid">pointer invalid</string>
+	<string name="clean_J2T_value">Clean the input time value</string>
+	<string name="str_stop_record_dialog_title">STOP RECORDING</string>
+	<string name="str_stop_record_dialog_message">System will stop record if user want to channel up/down</string>
+	<string name="str_stop_record_dialog_confirm">Confirm</string>
+	<string name="str_stop_record_dialog_cancel">Cancel</string>
+	<string name="str_disk_too_slow">Disk Speed is too low</string>
+	
+	
+	<string name="str_ca_aclist_info_areacode_id">区域码:</string>
+	<string name="str_ca_aclist_info_bouquetid_id">Bouguet ID:</string>
+	<string name="str_ca_aclist_info_aclist1_id">特征值-1:</string>
+	<string name="str_ca_aclist_info_aclist2_id">特征值-2:</string>
+	<string name="str_ca_aclist_info_aclist3_id">特征值-3:</string>
+	<string name="str_ca_aclist_info_aclist4_id">特征值-4:</string>
+	<string name="str_ca_aclist_info_aclist5_id">特征值-5:</string>
+	<string name="str_ca_aclist_info_aclist6_id">特征值-6:</string>
+	
+	
+	<string name="enter_old_pwd">Please enter old password</string>
+	<string name="enter_check_pwd">Please enter password</string>
+	<string name="enter_new_pwd">Please enter old password</string>
+	<string name="confirm_new_pwd">please enter old password</string>
+	<string name="block_program_title">Block Program</string>
+	<string-array name="guidance_list">
+        <item>OFF</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string name="str_dtv_source_info_age">Age</string>
+
+    <!-- for box only -->
+    <string name="wait_for_tuning_hint">"Please wait for tunning..."</string>
+    
+    <string name="block_program_Lock">Lock</string>
+    <string name="large_text">Large Text</string>
+    <string name="text_ad">AD</string>
+    <string name="text_auto_hoh">Auto HOH</string>
+    <string name="text_stop">Stop</string>
+    <string name="text_standby">Standby</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_haha">"Are you going to stop pvr recording, or go to standby recording?"</string>
+    
+    <string name="str_mainmenu_menu">Menu</string>
+    
+    <string name="str_root_alert_dialog_title">Tip</string>
+	<string name="str_root_alert_dialog_message">Sure you want to exit TV system?</string>
+	<string name="str_root_alert_dialog_confirm">OK</string>
+	<string name="str_root_alert_dialog_cancel">Cancel</string>
+
+	<string name="setting_button1">节目搜索</string>
+	<string name="setting_button2">节目列表</string>
+	<string name="setting_button3">节目指南</string>
+	<string name="setting_button4">条件接收</string>
+	<string name="setting_button5">其他设置</string>
+	<string name="setting_button6">恢复出厂设置</string>
+	
+	<string name="setting_search_button1">手动搜索</string>
+	<string name="setting_search_button2">全频段列表</string>
+	<string name="setting_search_button3">自动搜索</string>
+    
+	<string name="setting_search_manual_button">搜索</string>
+	<string name="setting_search_manual_text1">频率(KHz)</string>
+	<string name="setting_search_manual_text2">符码率(KS/s)</string>
+	<string name="setting_search_manual_text3">调制方式</string>
+	
+	<string name="setting_search_manual_edittext1">259000</string>
+	<string name="setting_search_manual_edittext2">6875</string>
+	<string name="setting_search_manual_edittext3">QAM64</string>
+	
+	<string name="setting_search_manual_searching_textview1">搜索结果</string>
+	<string name="setting_search_manual_searching_textview2">序号</string>
+	<string name="setting_search_manual_searching_textview3">频点信息</string>
+	<string name="setting_search_manual_searching_textview4">状态</string>
+	<string name="setting_search_manual_searching_textview1_1">电视：000</string>
+	<string name="setting_search_manual_searching_textview1_2">广播：000</string>
+	<string name="setting_search_manual_searching_textview1_3">资讯：000</string>
+	<string name="setting_search_manual_searching_textview1_4">点播：000</string>
+	<string name="setting_search_manual_searching_textview2_1">信号强度</string>
+	<string name="setting_search_manual_searching_textview2_2">信号质量</string>
+	<string name="setting_search_manual_searching_textview2_3">搜索进度</string>
+	<string name="setting_search_manual_searching_textview3_1">0%</string>
+	<string name="setting_search_manual_searching_textview3_2">0%</string>
+	<string name="setting_search_manual_searching_textview3_3">0%</string>
+	<string name="listview_item_textview1">电视</string>
+	<string name="listview_item_textview2">广播</string>
+	<string name="setting_list_textview1">电视节目列表</string>
+	<string name="setting_list_textview2">节目管理</string>
+	<string name="setting_list_textview3">按▲ ▼键滚动【确认】播放</string>
+	<!-- 上下提示文字 -->
+	<string name="setting_textview1">直播设置</string>
+	<string name="setting_textview2">按▲ ▼键移动【确认】进入</string>	
+	<string name="setting_textview3">节目搜索</string>	
+	<string name="setting_textview4">按▲ ▼键滚动，退出键返回</string>	
+	
+	<string name="test_menu_textview1">CA Info</string>
+	<string name="test_menu_textview2">Search_435M</string>
+	<string name="test_menu_textview3">Get_Prog_List_Info</string>
+	<string name="test_menu_textview4">Play TV</string>
+	
+	<!-- EPG -->
+	<string name="monday">周一</string>
+	<string name="tuesday">周二</string>
+	<string name="wednesday">周三</string>
+	<string name="thursday">周四</string>
+	<string name="friday">周五</string>
+	<string name="saturday">周六</string>
+	<string name="sunday">周日</string>
+	<string name="playing">播放中</string>
+	<string name="epg">节目指南</string>
+	<string name="epg_tips">按▲ ▼ ◀ ▶移动</string>	
+	
+	<string name="top_no_singal">信号中断</string>
+	<string name="top_no_prog">节目列表为空,请搜索</string>
+	
+	
+</resources>

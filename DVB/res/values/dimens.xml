@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Setting中button，surface大小设置 -->
+    <dimen name="setting_button_w">250dp</dimen>
+    <dimen name="setting_button_h">78dp</dimen>
+    <dimen name="setting_button_textsize">25sp</dimen>
+    
+    <!-- search中手动搜索button大小 -->
+    <dimen name="search_textview_w">240dp</dimen>
+    <dimen name="search_textview_h">50dp</dimen>
+    
+    <dimen name="searching_textview_h">50dp</dimen>
+</resources>

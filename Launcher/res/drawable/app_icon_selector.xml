@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:state_enabled="false" android:state_focused="false" android:drawable="@drawable/icon1_bg">
+         <shape>
+              <solid android:color="#775c5c5c"/>
+              <corners android:radius="5dp" />  
+        </shape>
+   </item>
+    
+    
+    <item android:state_enabled="false" android:state_focused="true" android:drawable="@drawable/icon1_bg">
+        <shape>
+              <solid android:color="#775c5c5c"/>
+              <corners android:radius="5dp" />  
+        </shape>
+    </item>
+    
+    <!-- 没有焦点时的背景图片 -->
+    <item android:state_window_focused="false" android:drawable="@drawable/icon1_bg">
+         <shape>
+              <solid android:color="#775c5c5c"/>
+              <corners android:radius="5dp" />  
+        </shape>
+    </item>
+    
+
+    <!-- 非触摸模式下获得焦点并单击时的背景图片 -->
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/icon1_bf_foucs">
+        <shape>
+            <stroke android:width="4dp" android:dashWidth="0dp"  android:color="#aab5e1ff" />
+            <corners android:radius="5dp" />  
+        </shape>
+    </item>
+
+    <!-- 触摸模式下单击时的背景图片 -->
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/icon1_bf_foucs"><!-- android:drawable="@drawable/icon1_bf_foucs" -->
+        <shape>
+            <stroke android:width="4dp" android:dashWidth="0dp"  android:color="#aab5e1ff" />
+            <corners android:radius="5dp" />  
+        </shape>
+    </item>
+
+    <!-- 选中时的图片背景 -->
+    <item android:state_selected="true" android:drawable="@drawable/icon1_bf_foucs">
+        <shape>
+            <stroke android:width="4dp" android:dashWidth="0dp"  android:color="#aab5e1ff" />
+            <corners android:radius="5dp" />  
+        </shape>
+    </item>
+
+    <!-- 获得焦点时的图片背景 -->
+    <item android:state_focused="true" android:drawable="@drawable/icon1_bf_foucs">
+        <shape>
+            <stroke android:width="4dp" android:dashWidth="0dp"  android:color="#aab5e1ff" />
+            <corners android:radius="5dp" />  
+        </shape>
+    </item>
+
+    <!-- 默认时的背景图片 -->
+    <item android:drawable="@drawable/icon1_bg">
+       <shape>
+              <solid android:color="#775c5c5c"/>
+              <corners android:radius="5dp" />  
+        </shape>
+    </item>
+
+</selector>

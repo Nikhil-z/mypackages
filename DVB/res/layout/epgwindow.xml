@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+    
+    <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/epg_bg" />
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true" >
+        
+        <ImageView 
+            android:id="@+id/icon"
+            android:layout_width="62dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/epg_icon"/>
+        
+        <TextView 
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_centerVertical="true"
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:text="@string/epg" />
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="#66ffffff" />
+        
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/proglist"
+        android:layout_width="330dp"
+        android:layout_height="540dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="113dp"
+        android:layout_centerVertical="true"
+        android:divider="@null"
+        android:listSelector="@drawable/proglist_item_selector" >
+        <!-- android:background="@drawable/circle_border" -->
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="695dp"
+        android:layout_height="546dp"
+        android:layout_alignTop="@+id/proglist"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="138dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+        <!-- android:background="@drawable/circle_border" -->
+
+         <FrameLayout
+            android:id="@+id/video"
+            android:layout_width="fill_parent"
+            android:layout_height="330dp"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp" >
+
+            <SurfaceView
+                android:layout_width="fill_parent"
+           		android:layout_height="330dp"
+            	android:layout_alignParentTop="true"
+            	android:layout_margin="5dp"
+                 />
+
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/ca_viewholder_info" 
+                />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/date"
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:layout_below="@+id/video"
+            android:orientation="horizontal" ><!-- android:layout_alignParentBottom="true"
+            android:layout_marginBottom="152dp" -->
+
+            <Button
+                android:id="@+id/date0"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_seletor"
+                android:layout_weight="1"
+                android:textSize="24dp"
+                android:textColor="@android:color/white"
+                android:text="@string/monday" />
+
+            <Button
+                android:id="@+id/date1"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_seletor"
+                android:layout_weight="1"
+                android:textSize="24dp"
+                android:textColor="@android:color/white"
+                android:text="@string/tuesday" />
+            <!-- android:drawableLeft="@drawable/dot" -->
+
+            <Button
+                android:id="@+id/date2"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_seletor"
+                android:layout_weight="1"
+                android:textSize="24dp"
+                android:textColor="@android:color/white"
+                android:text="@string/wednesday" />
+
+            <Button
+                android:id="@+id/date3"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_seletor"
+                android:layout_weight="1"
+                android:textSize="24dp"
+                android:textColor="@android:color/white"
+                android:text="@string/thursday" />
+
+            <Button
+                android:id="@+id/date4"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_seletor"
+                android:layout_weight="1"
+                android:textSize="24dp"
+                android:textColor="@android:color/white"
+                android:text="@string/friday" />
+
+            <Button
+                android:id="@+id/date5"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_seletor"
+                android:layout_weight="1"
+                android:textSize="24dp"
+                android:textColor="@android:color/white"
+                android:text="@string/saturday" />
+
+            <Button
+                android:id="@+id/date6"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn_seletor"
+                android:layout_weight="1"
+                android:textSize="24dp"
+                android:textColor="@android:color/white"
+                android:text="@string/sunday" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/epglist"
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:divider="@null"
+            android:listSelector="@drawable/proglist_item_selector"  >
+        </ListView>
+    </RelativeLayout>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="#FF1E1E1E"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:text="@string/epg_tips" />
+        
+
+</RelativeLayout>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/button4_1"
+            android:layout_width="@dimen/middle_button_width"
+            android:layout_height="@dimen/middle_button_height"
+            android:layout_marginLeft="@dimen/button4_to_left"
+            android:layout_marginTop="@dimen/button4_to_headbar"
+            android:background="@drawable/default_4_1"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/contentDescription_4"
+            android:text="@string/button4_1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/application_textsize" />
+
+        <Button
+            android:id="@+id/button4_2"
+            android:layout_width="@dimen/middle_button_width"
+            android:layout_height="@dimen/middle_button_height"
+            android:layout_alignTop="@id/button4_1"
+            android:layout_marginLeft="@dimen/button4_spacing"
+            android:layout_toRightOf="@id/button4_1"
+            android:background="@drawable/default_4_2"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/contentDescription_4"
+            android:text="@string/button4_2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/application_textsize" />
+
+        <Button
+            android:id="@+id/button4_3"
+            android:layout_width="@dimen/middle_button_width"
+            android:layout_height="@dimen/middle_button_height"
+            android:layout_alignTop="@id/button4_2"
+            android:layout_marginLeft="@dimen/button4_spacing"
+            android:layout_toRightOf="@id/button4_2"
+            android:background="@drawable/default_4_3"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/contentDescription_4"
+            android:text="@string/button4_3"
+            android:textColor="@color/white"
+            android:textSize="@dimen/application_textsize" />
+
+        <Button
+            android:id="@+id/button4_4"
+            android:layout_width="@dimen/middle_button_width"
+            android:layout_height="@dimen/middle_button_height"
+            android:layout_alignTop="@id/button4_2"
+            android:layout_marginLeft="@dimen/button4_spacing"
+            android:layout_toRightOf="@id/button4_3"
+            android:background="@drawable/default_4_4"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/contentDescription_4"
+            android:text="@string/button4_4"
+            android:textColor="@color/white"
+            android:textSize="@dimen/application_textsize" />
+
+        <Button
+            android:id="@+id/button4_5"
+            android:layout_width="@dimen/middle_button_width"
+            android:layout_height="@dimen/middle_button_height"
+            android:layout_alignLeft="@id/button4_1"
+            android:layout_below="@id/button4_1"
+            android:layout_marginTop="@dimen/button4_spacing_totop"
+            android:background="@drawable/default_4_5"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/contentDescription_4"
+            android:text="@string/button4_5"
+            android:textColor="@color/white"
+            android:textSize="@dimen/application_textsize"/>
+
+        <Button
+            android:id="@+id/button4_6"
+            android:layout_width="@dimen/middle_button_width"
+            android:layout_height="@dimen/middle_button_height"
+            android:layout_below="@id/button4_2"
+            android:layout_marginLeft="@dimen/button4_spacing"
+            android:layout_marginTop="@dimen/button4_spacing_totop"
+            android:layout_toRightOf="@id/button4_5"
+            android:background="@drawable/default_4_6"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/contentDescription_4"
+            android:text="@string/button4_6"
+            android:textColor="@color/white"
+            android:textSize="@dimen/application_textsize" />
+
+        <Button
+            android:id="@+id/button4_7"
+            android:layout_width="@dimen/middle_button_width"
+            android:layout_height="@dimen/middle_button_height"
+            android:layout_below="@id/button4_3"
+            android:layout_marginLeft="@dimen/button4_spacing"
+            android:layout_marginTop="@dimen/button4_spacing_totop"
+            android:layout_toRightOf="@id/button4_2"
+            android:background="@drawable/default_4_7"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/contentDescription_4"
+            android:text="@string/button4_7"
+            android:textColor="@color/white"
+            android:textSize="@dimen/application_textsize" />
+
+        <Button
+            android:id="@+id/button4_8"
+            android:layout_width="@dimen/middle_button_width"
+            android:layout_height="@dimen/middle_button_height"
+            android:layout_below="@id/button4_4"
+            android:layout_marginLeft="@dimen/button4_spacing"
+            android:layout_marginTop="@dimen/button4_spacing_totop"
+            android:layout_toRightOf="@id/button4_7"
+            android:background="@drawable/default_4_8"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/contentDescription_4"
+            android:text="@string/button4_8"
+            android:textColor="@color/white"
+            android:textSize="@dimen/application_textsize" />
+
+        <Button
+            android:id="@+id/button4_9"
+            android:layout_width="@dimen/middle_button_width"
+            android:layout_height="@dimen/middle_button_height"
+            android:layout_alignLeft="@id/button4_5"
+            android:layout_below="@id/button4_5"
+            android:layout_marginTop="@dimen/button4_spacing_totop"
+            android:background="@drawable/default_4_9"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/contentDescription_4"
+            android:text="@string/button4_9"
+            android:textColor="@color/white"
+            android:textSize="@dimen/application_textsize" />
+
+        <Button
+            android:id="@+id/button4_10"
+            android:layout_width="@dimen/middle_button_width"
+            android:layout_height="@dimen/middle_button_height"
+            android:layout_alignBottom="@id/button4_9"
+            android:layout_below="@id/button4_6"
+            android:layout_marginLeft="@dimen/button4_spacing"
+            android:layout_marginTop="@dimen/button4_spacing_totop"
+            android:layout_toRightOf="@id/button4_9"
+            android:background="@drawable/default_4_10"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/contentDescription_4"
+            android:text="@string/button4_10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/application_textsize" />
+
+        <Button
+            android:id="@+id/button4_11"
+            android:layout_width="@dimen/middle_button_width"
+            android:layout_height="@dimen/middle_button_height"
+            android:layout_below="@id/button4_7"
+            android:layout_marginLeft="@dimen/button4_spacing"
+            android:layout_marginTop="@dimen/button4_spacing_totop"
+            android:layout_toRightOf="@id/button4_6"
+            android:background="@drawable/default_4_11"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/contentDescription_4"
+            android:text="@string/button4_11"
+            android:textColor="@color/white"
+            android:textSize="@dimen/application_textsize" />
+
+        <Button
+            android:id="@+id/button4_12"
+            android:layout_width="@dimen/middle_button_width"
+            android:layout_height="@dimen/middle_button_height"
+            android:layout_below="@id/button4_6"
+            android:layout_marginLeft="@dimen/button4_spacing"
+            android:layout_marginTop="@dimen/button4_spacing_totop"
+            android:layout_toRightOf="@id/button4_11"
+            android:background="@drawable/default_4_12"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/contentDescription_4"
+            android:text="@string/button4_12"
+            android:textColor="@color/white"
+            android:textSize="@dimen/application_textsize"/>
+
+   
+    </RelativeLayout>
+
+
+    <!-- 焦点框 -->
+
+    <ImageView
+        android:id="@+id/child_focus_img"
+        android:layout_width="@dimen/application_default_focus_width"
+        android:layout_height="@dimen/application_default_focus_height"
+        android:layout_marginLeft="@dimen/application_default_focus_to_left"
+        android:layout_marginTop="@dimen/application_default_focus_to_top"
+        android:background="@drawable/focus"
+        android:scaleType="fitXY"
+        android:visibility="invisible" />
+
+</FrameLayout>

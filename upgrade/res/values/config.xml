@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<bool name="config_local_upgrade">true</bool>
+	<bool name="config_net_upgrade">true</bool>
+	
+	<bool name="config_local_check_sdcard">true</bool>
+	<bool name="config_local_check_flash">true</bool>
+	<bool name="config_local_check_usb">true</bool>
+	<bool name="config_local_check_sata">false</bool>
+	<bool name="config_multithread_download">false</bool>
+	
+	<!-- from recovery.fstab -->
+	<string name="config_recovery_usb_path">/udisk</string>
+	<string name="config_recovery_sata_path">/sata</string>
+	
+	<string name="config_net_server_xml_url">http://s-91261.abc188.com/HAN330/HAN330-FA-0-CNTV/kk_update_des.xml</string>
+	<string name="config_net_server_xml_verify_url">http://s-91261.abc188.com/HAN330/HAN330-FA-0-CNTV/kk_update_des.xml.sn</string>	
+	
+	<string name="config_recovery_force_upgrade_name">KONKA_USB_UPDATE_FORCE.zip</string>
+</resources>

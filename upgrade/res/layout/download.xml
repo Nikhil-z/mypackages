@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bar_bg">
+
+    <EditText
+        android:id="@+id/downloadUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="20dip"
+        android:layout_toLeftOf="@+id/confirm"
+        android:inputType="textUri" />
+
+    <ProgressBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/confirm"
+        android:layout_marginTop="16dp" 
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:clickable="false"/>
+
+    <TextView
+        android:id="@+id/totalSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/curSize"
+        android:layout_alignBottom="@+id/curSize"
+        android:layout_marginRight="20dip"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/curSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBar1"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/downloadUrl"
+        android:layout_alignBottom="@+id/downloadUrl"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dip"
+        android:text="@string/btn_ok" />
+
+</RelativeLayout>

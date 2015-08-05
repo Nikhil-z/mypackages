@@ -1,0 +1,128 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- 关于statusbar的参数 -->
+    <dimen name="statusbar_to_right">22dp</dimen>
+    <dimen name="statusbar_height">24dp</dimen>
+    <dimen name="statusbar_to_top">25dp</dimen>
+    <dimen name="statusbar_clock_text_size">20sp</dimen>
+    <dimen name="statusbar_item_spacing">17dp</dimen>
+    <dimen name="statusbar_weather_text_size">18sp</dimen>
+    <dimen name="statusbar_network_icon_width">24dp</dimen>
+    <dimen name="statusbar_network_icon_height">16dp</dimen>
+    <dimen name="statusbar_usb_icon_width">16dp</dimen>
+    
+    <!-- 关于headbar的参数 -->
+    <dimen name="headbar_height">45dp</dimen><!-- headbar 高度 -->
+    <dimen name="headbar_text_size">23sp</dimen><!-- headbar上title字体大小 -->
+    <dimen name="headbar_title_width">110dp</dimen><!-- headbar上title的宽度 -->
+    <dimen name="headbar_title_height">30dp</dimen><!-- headbar上title的高度 -->
+    <dimen name="headbar_to_statusbar">5dp</dimen><!-- headbar距statusbar高度 -->
+    <dimen name="headbar_to_left">50dp</dimen><!-- headbar距左边距距离 -->
+    <dimen name="headbar_underline_to_left">68dp</dimen><!-- headbar下滑线距离左边距 -->
+    <dimen name="headbar_underline_height">15dp</dimen><!-- headbar下滑线高度 -->
+    <dimen name="headbar_underline_width">90dp</dimen><!-- headbar下滑线宽度 -->
+    <dimen name="headbar_underline_to_headbar_left">13dp</dimen><!-- headbar下滑线距离headbar左距离 -->
+    <dimen name="headbar_divide_height">22dp</dimen><!-- headbar分割线高度 -->
+    <dimen name="headbar_divide_width">1dp</dimen><!-- headbar分割线宽度 -->
+    
+    <!-- 坑位距 左边距 -->
+    <dimen name="button_to_left">54dp</dimen>
+    <dimen name="button4_to_left">120dp</dimen>
+    
+    <!-- 坑位距head bar的距离 -->
+    <dimen name="button_to_headbar">26dp</dimen>
+    <dimen name="button4_to_headbar">20dp</dimen>
+    
+    <!-- 超大坑位尺寸 -->
+    <dimen name="extra_button_width">468dp</dimen>
+    <dimen name="extra_button_height">320dp</dimen>
+    
+    <!-- 大坑位尺寸 -->
+    <dimen name="big_button_width">240dp</dimen>
+    <dimen name="big_button_height">320dp</dimen>
+    
+    <!-- 中型坑位尺寸 -->
+    <dimen name="middle_button_width">230dp</dimen>
+    <dimen name="middle_button_height">156dp</dimen>
+    
+    <!-- 小型坑位尺寸 -->
+    <dimen name="small_button_width">156dp</dimen>
+    <dimen name="small_button_height">156dp</dimen>
+    
+    <!-- 长方形坑位的尺寸 -->
+    <dimen name="rectangle_button_width">157.33dp</dimen>
+    <dimen name="rectangle_button_height">156dp</dimen>
+    
+    <!-- 坑位之间的间隔 -->
+    <dimen name="button_spacing">8dp</dimen>
+    <dimen name="button4_spacing">30dp</dimen>
+    <dimen name="button4_spacing_totop">15dp</dimen>
+    
+    <!-- 坑位上label的参数 -->
+    <dimen name="button_label_height">50.67dp</dimen>
+    <dimen name="button_label_text_size">22.67sp</dimen>
+    
+    <!-- 焦点框参数 -->
+    <dimen name="normal_focus_width_difference">50dp</dimen>
+    <dimen name="normal_focus_height_difference">50dp</dimen>
+    
+    <!-- 推荐页焦点框初始位置参数 -->
+    <dimen name="recommend_default_focus_width">518dp</dimen>
+    <dimen name="recommend_default_focus_height">370dp</dimen>
+    <dimen name="recommend_default_focus_to_left">29dp</dimen>
+    <dimen name="recommend_default_focus_to_top">0dp</dimen> 
+    
+    <dimen name="application_default_focus_width">518dp</dimen>
+    <dimen name="application_default_focus_height">370dp</dimen>
+    <dimen name="application_default_focus_to_left">29dp</dimen>
+    <dimen name="application_default_focus_to_top">0dp</dimen> 
+    
+    <!-- 视频窗口的播放按钮参数 -->
+    <dimen name="video_play_button_width">81.33dp</dimen>
+    <dimen name="video_play_button_height">81.33dp</dimen>
+    <dimen name="video_play_button_to_top">250dp</dimen>
+    <dimen name="video_play_button_to_left">420dp</dimen>
+    
+    <!-- 预留button属性 -->
+    <dimen name="jumper_size">50dp</dimen>
+    
+    <!-- 消息 -->
+    <dimen name="envelope_width">30dp</dimen>
+    <dimen name="envelope_height">25dp</dimen>
+    <dimen name="envelope_to_left">60dp</dimen>
+    <dimen name="envelope_to_top">68dp</dimen>
+    <dimen name="envelope_to_right">10dp</dimen>
+    <dimen name="envelope_text_size">22sp</dimen>
+    <dimen name="clean_all_to_top">62dp</dimen>
+    <dimen name="clean_all_to_right">20dp</dimen>
+    <dimen name="clean_all_to_left">20dp</dimen>
+    <dimen name="empty_message_text_size">30dp</dimen>
+    <dimen name="empty_message_to_top">20dp</dimen>
+	
+	   <!--  隐藏菜单小箭头 -->
+   <dimen name="arrow_width">46dp</dimen>
+   <dimen name="arrow_height">20dp</dimen>
+   <dimen name="arrow_left">600dp</dimen>
+   
+   <!-- 斑点 -->
+   <dimen name="spot_width">40dp</dimen>
+   <dimen name="spot_height">40dp</dimen>
+   <dimen name="spot_text_size">15sp</dimen>
+   
+   <!-- TAB第四个菜单 应用 相关设置数据 -->
+   <dimen name="application_textsize">25sp</dimen>
+   
+   <!-- main_tip 相关内容 -->
+   <dimen name="main_tip_h">30dp</dimen>
+   <dimen name="main_tip_w">320dp</dimen>
+   <dimen name="main_tip_toleft">60dp</dimen>
+   <dimen name="main_tip_totop">20dp</dimen>
+   <dimen name="main_tip_textsize">25sp</dimen>
+   
+   <dimen name="button1_textsize">22sp</dimen>
+   
+</resources>

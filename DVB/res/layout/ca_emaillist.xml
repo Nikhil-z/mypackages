@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+ <FrameLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="5dp"
+	android:gravity="center"
+	> 
+    
+  	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+        
+	   <FrameLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="5dp"
+		android:gravity="center"
+		android:orientation="horizontal"
+		> 
+  	    
+	        <ImageView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:background="@drawable/ic_dialog_email"
+	    	/>
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/email"
+	            android:textColor="#FFFFFF"
+	            android:textSize="30dp" 
+	            android:layout_marginTop="5dp"
+	            android:layout_marginLeft="50dp"
+	            />
+          </FrameLayout> 
+    </LinearLayout>
+            
+    <ImageView
+        android:layout_width="wrap_content"
+    	android:layout_height="25sp"
+    	android:layout_marginTop="53dp"
+    	android:background="@drawable/ca_title_top_line"
+    	/>
+  </FrameLayout>  
+  
+    <!-- For CA email title -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="90dp"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/email_theme"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="250dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/email_time"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/email_level"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/email_state"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/horizontal_line" />
+
+    <!-- For CA email List -->
+    <ListView
+        android:id="@+id/email_listview"
+        android:layout_width="match_parent"
+    	android:layout_height="500dp"
+    	android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+    	android:listSelector="@drawable/item_slector"
+    	android:divider="@null">     
+    </ListView>
+
+
+ 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:gravity="center" >
+
+      <TextView
+	      android:id="@+id/emaillist_bottom"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentRight="true"
+	      android:textSize="18dip"
+	      android:layout_marginRight="20dip" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/horizontal_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="30dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dip"
+            android:textSize="18dip"
+            android:text="@string/email_aid" />
+
+    </RelativeLayout>
+
+</LinearLayout>

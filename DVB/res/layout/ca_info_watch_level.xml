@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+ <FrameLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="5dp"
+	android:gravity="center"
+	> 
+    
+  	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+        
+        <ImageView
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/ca_title_info"
+    	/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_ca_mg_title"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" 
+            android:layout_marginTop="23dp"
+            />
+    </LinearLayout>
+            
+    <ImageView
+        android:layout_width="wrap_content"
+    	android:layout_height="25sp"
+    	android:layout_marginTop="58dp"
+    	android:background="@drawable/ca_title_top_line"
+    	/>
+  </FrameLayout>  
+  
+    <FrameLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content" 
+    	android:gravity="center"
+        >
+         <TextView 
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/str_watch_level_title"
+	    	android:textColor="@color/enable_text_color"
+		    android:textSize="30sp"
+		    android:layout_marginTop="30dp"
+		    android:layout_gravity="center_horizontal"
+    	/>
+
+   		 <ImageView
+	        android:layout_width="400dp"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="50dp"
+	        android:layout_gravity="center_horizontal"
+	        android:background="@drawable/under_top" />
+        
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="300dp"
+        android:layout_height="450dp"
+        android:orientation="vertical" >
+
+        <!-- For Watch Level -->
+        <LinearLayout
+            android:id="@+id/linearlayout_watch_level"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/item_slector"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+			
+            <ImageView
+                style="@style/pic_mode_sty_leftarrow"
+                android:layout_marginTop="10dp" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textview_watch_level_text"
+                android:layout_width="150dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_watch_level_text"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textview_watch_level"
+                android:layout_width="80dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/str_watch_level_init"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <ImageView
+                style="@style/pic_mode_sty_rightarrow"
+                android:layout_marginTop="9dp" >
+            </ImageView>
+        </LinearLayout>
+        
+            <TextView
+                android:id="@+id/textview_ca_work_time_pin"
+                android:layout_width="204dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="55dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/str_ca_work_time_pin"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/editText_ca_watch_level_pin"
+                    android:layout_width="240dp"
+            		android:layout_height="40dp"
+            		android:layout_marginLeft="55dp"
+            		android:layout_marginTop="15dp"
+                    android:gravity="left|center_vertical"
+                    android:imeOptions="actionDone"
+            		android:inputType="numberPassword"
+            		android:password="true"
+            		android:maxLength="6"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" >
+                </EditText>
+
+                <Button
+	            android:id="@+id/btnSubmit"
+	            android:layout_width="wrap_content"
+	            android:layout_height="35dp"
+	            android:layout_gravity="center_vertical"
+	            android:layout_marginLeft="55dp"
+	            android:layout_marginTop="30dp"
+	            android:text="@string/str_ca_mg_submit" />    
+             
+    </LinearLayout>
+
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+        android:layout_width="match_parent"
+    	android:layout_height="50dp"
+    	android:background="@drawable/bottom"
+    	android:baselineAlignBottom="true"
+    	/>
+    
+        
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/str_ca_back_help"
+            android:textSize="20sp" />
+    </FrameLayout>
+    
+</LinearLayout>

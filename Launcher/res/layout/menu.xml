@@ -1,0 +1,285 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="#aa000000"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+        <include layout="@layout/main_bottom" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="15dp" >
+
+            <FrameLayout
+                android:id="@+id/app_1"
+                android:layout_width="@dimen/small_button_width"
+                android:layout_height="@dimen/small_button_height"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/button_to_left"
+                android:background="@drawable/app_icon_selector"
+                android:clickable="true"
+                android:focusable="true"
+                android:tag="1401" >
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:ellipsize="end"
+        			android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/app_2"
+                android:layout_width="@dimen/small_button_width"
+                android:layout_height="@dimen/small_button_height"
+                android:layout_alignTop="@+id/app_1"
+                android:layout_toRightOf="@+id/app_1"
+                android:background="@drawable/app_icon_selector"
+                android:clickable="true"
+                android:focusable="true"
+                android:tag="1402" >
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:ellipsize="end"
+        			android:singleLine="true"                    
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/app_3"
+                android:layout_width="@dimen/small_button_width"
+                android:layout_height="@dimen/small_button_height"
+                android:layout_alignTop="@+id/app_2"
+                android:layout_toRightOf="@+id/app_2"
+                android:background="@drawable/app_icon_selector"
+                android:clickable="true"
+                android:focusable="true"
+                android:tag="1403" >
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginLeft="18dp"
+        			android:layout_marginRight="18dp"
+                    android:ellipsize="end"
+        			android:singleLine="true"        			
+                    android:textColor="@color/white"
+                    android:textSize="18dp"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/app_4"
+                android:layout_width="@dimen/small_button_width"
+                android:layout_height="@dimen/small_button_height"
+                android:layout_alignTop="@+id/app_3"
+                android:layout_toRightOf="@+id/app_3"
+                android:background="@drawable/app_icon_selector"
+                android:clickable="true"
+                android:focusable="true"
+                android:tag="1404" >
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:ellipsize="end"
+        			android:singleLine="true"                    
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/app_5"
+                android:layout_width="@dimen/small_button_width"
+                android:layout_height="@dimen/small_button_height"
+                android:layout_alignTop="@+id/app_4"
+                android:layout_toRightOf="@+id/app_4"
+                android:background="@drawable/app_icon_selector"
+                android:clickable="true"
+                android:focusable="true"
+                android:tag="1405" >
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:ellipsize="end"
+        			android:singleLine="true"                    
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/app_6"
+                android:layout_width="@dimen/small_button_width"
+                android:layout_height="@dimen/small_button_height"
+                android:layout_alignTop="@+id/app_5"
+                android:layout_toRightOf="@+id/app_5"
+                android:background="@drawable/app_icon_selector"
+                android:clickable="true"
+                android:focusable="true"
+                android:tag="1406" >
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:ellipsize="end"
+        			android:singleLine="true"                    
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/app_7"
+                android:layout_width="@dimen/small_button_width"
+                android:layout_height="@dimen/small_button_height"
+                android:layout_alignTop="@+id/app_6"
+                android:layout_toRightOf="@+id/app_6"
+                android:background="@drawable/app_icon_selector"
+                android:clickable="true"
+                android:focusable="true"
+                android:tag="1407" >
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:ellipsize="end"
+        			android:singleLine="true"                    
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/app_8"
+                android:layout_width="@dimen/small_button_width"
+                android:layout_height="@dimen/small_button_height"
+                android:layout_alignTop="@+id/app_7"
+                android:layout_toRightOf="@+id/app_7"
+                android:background="@drawable/app_icon_selector"
+                android:clickable="true"
+                android:focusable="true"
+                android:tag="1408" >
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:ellipsize="end"
+        			android:singleLine="true"                    
+                    android:text="8"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/app_add"
+                android:layout_width="@dimen/small_button_width"
+                android:layout_height="@dimen/small_button_height"
+                android:layout_alignTop="@+id/app_8"
+                android:layout_toRightOf="@+id/app_8"
+                android:background="@drawable/app_icon_selector"
+                android:clickable="true"
+                android:focusable="true"
+                android:tag="app_add" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/app_add" />
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</HorizontalScrollView>

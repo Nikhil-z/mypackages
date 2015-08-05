@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/setting_list_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/pro_search" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/setting_textview3"
+            android:textColor="@color/enable_text_color"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/setting_list_uderline" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="800dp"
+        android:layout_height="550dp"
+        android:background="@drawable/bg_inner" >
+
+        <Button
+            android:id="@+id/setting_search_button1"
+            android:layout_width="@dimen/setting_button_w"
+            android:layout_height="@dimen/setting_button_h"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/item_focuson"
+            android:gravity="center"
+            android:text="@string/setting_search_button1"
+            android:textColor="@color/enable_text_color"
+            android:textSize="@dimen/setting_button_textsize" />
+
+        <Button
+            android:id="@+id/setting_search_button2"
+            android:layout_width="@dimen/setting_button_w"
+            android:layout_height="@dimen/setting_button_h"
+            android:layout_below="@id/setting_search_button1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/item_focuson"
+            android:gravity="center"
+            android:text="@string/setting_search_button2"
+            android:textColor="@color/enable_text_color"
+            android:textSize="@dimen/setting_button_textsize" />
+
+        <Button
+            android:id="@+id/setting_search_button3"
+            android:layout_width="@dimen/setting_button_w"
+            android:layout_height="@dimen/setting_button_h"
+            android:layout_below="@id/setting_search_button2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/item_focuson"
+            android:gravity="center"
+            android:text="@string/setting_search_button3"
+            android:textColor="@color/enable_text_color"
+            android:textSize="@dimen/setting_button_textsize" />
+
+        <FrameLayout
+            android:id="@+id/setting_framelayout_surfacewiew"
+            android:layout_width="450dp"
+            android:layout_height="320dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="40dp" >
+
+            <SurfaceView
+                android:id="@+id/setting_surface"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/ca_viewholder_info" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/setting_imageview"
+            android:layout_width="450dp"
+            android:layout_height="130dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/setting_framelayout_surfacewiew"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/setting_imageview" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="25dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bottom" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/setting_textview2"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+</LinearLayout>

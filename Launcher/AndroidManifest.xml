@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.konka.launcher"
+    
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.konka.test.Future"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.konka.launcher.app.OtherApps"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.konka.launcher.app.LauncherMenu"
+            android:launchMode="singleTask"
+            android:theme="@style/menuDialog" >
+        </activity>
+        <activity
+            android:name="com.konka.launcher.app.ApplicationMenu"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.konka.launcher.OtherApplication"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <receiver android:name="com.konka.operator.BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

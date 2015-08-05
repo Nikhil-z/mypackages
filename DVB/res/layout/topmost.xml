@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topmost_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <SurfaceView
+        android:id="@+id/topmost_surface"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible" />
+    
+    <TextView 
+        android:id="@+id/topmost_track"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="180dp"
+        android:layout_gravity="right"
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
+    
+    <TextView
+        android:id="@+id/topmost_prog_num"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="80dp"
+        android:layout_gravity="right"
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
+    
+		<include layout="@layout/ca_viewholder_info" 
+		    android:layout_height="fill_parent"
+		    android:layout_width="fill_parent"/>
+</FrameLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp" >
+    <!-- android:background="@drawable/epg_proglist_artists" -->
+    
+   <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/listview_divider" />
+        
+    <ImageView 
+        android:id="@+id/prog_select"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/dot"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/prog_seq"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/prog_select"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/prog_name"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:scrollHorizontally="true" />
+
+</RelativeLayout>
